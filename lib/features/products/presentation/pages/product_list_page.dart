@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:product_app/core/routes.dart';
 import 'package:product_app/features/products/presentation/cubit/product_cubit.dart';
 import 'package:product_app/features/products/presentation/widgets/product_list_item.dart';
-import 'package:product_app/injection_container.dart';
+import 'package:product_app/core/injection_container.dart';
 
 class ProductListPage extends StatefulWidget {
   const ProductListPage({super.key});
